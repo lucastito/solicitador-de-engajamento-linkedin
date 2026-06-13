@@ -1,9 +1,9 @@
-# Automação de planilha para WhatsApp com n8n
+# Solicitador de engajamento no LinkedIn
 
-Projeto que lê contatos de uma planilha CSV, agrupa as linhas por publicação,
-envia mensagens personalizadas pelo WhatsApp e atualiza o status de cada
-tentativa. A orquestração usa n8n e o envio local usa uma ponte baseada em
-Baileys.
+Projeto que apoia a solicitação de engajamento em publicações do LinkedIn.
+Ele lê contatos de uma planilha CSV, agrupa as linhas por publicação, envia
+mensagens personalizadas pelo WhatsApp e atualiza o status de cada tentativa.
+A orquestração usa n8n e o envio local usa uma ponte baseada em Baileys.
 
 ## Funcionamento
 
@@ -20,7 +20,7 @@ sem enviar mensagens reais.
 
 ## Conteúdo público
 
-- `workflows/automacao-whatsapp-planilha.json`: workflow importável.
+- `workflows/solicitador-de-engajamento-linkedin.json`: workflow importável.
 - `src/processar-planilha.js`: código principal em formato legível.
 - `baileys_bridge/server.js`: serviço HTTP local para envio.
 - `baileys_bridge/package.json`: dependências da ponte.
@@ -107,8 +107,8 @@ Em outro terminal:
 ```
 
 Abra o endereço exibido e execute manualmente
-`automacao-whatsapp-planilha`. Mantenha `$DryRun = $true` até validar a
-planilha e as mensagens.
+`solicitador-de-engajamento-linkedin`. Mantenha `$DryRun = $true` até validar
+a planilha e as mensagens.
 
 ## Avisos
 

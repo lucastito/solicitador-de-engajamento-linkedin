@@ -4,7 +4,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
-$workflowPath = Join-Path $projectRoot 'workflows\automacao-whatsapp-planilha.json'
+$workflowPath = Join-Path $projectRoot 'workflows\solicitador-de-engajamento-linkedin.json'
 
 if (-not (Test-Path -LiteralPath $ConfigPath)) {
   throw "Configuração não encontrada: $ConfigPath. Copie config.example.ps1 para config.local.ps1."

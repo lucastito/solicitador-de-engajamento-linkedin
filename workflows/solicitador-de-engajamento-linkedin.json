@@ -1,7 +1,7 @@
 [
   {
     "id": "Wp8mK4qR2vN7cX5j",
-    "name": "automacao-whatsapp-planilha",
+    "name": "solicitador-de-engajamento-linkedin",
     "description": "L? contatos de um CSV, envia mensagens pelo WhatsApp via ponte Baileys e atualiza o status de cada envio.",
     "active": false,
     "nodes": [

@@ -28,7 +28,7 @@ async function connectWhatsApp() {
     auth: state,
     logger,
     printQRInTerminal: false,
-    browser: ['n8n-solicitador-linkedin', 'Chrome', '1.0.0'],
+    browser: ['n8n-solicitador-engajamento-linkedin', 'Chrome', '1.0.0'],
   });
 
   socket.ev.on('creds.update', saveCreds);
