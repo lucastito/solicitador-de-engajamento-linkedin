@@ -1,0 +1,20 @@
+{
+  "name": "baileys-bridge-solicitador-linkedin",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "audit": "npm audit --audit-level=low",
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.23",
+    "pino": "^10.3.1",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "overrides": {
+    "libsignal": "6.0.0"
+  }
+}
